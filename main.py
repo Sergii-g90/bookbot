@@ -3,7 +3,6 @@ from stats import word_count, character_count, sorted_list_of_chars
 def main():
     with open('books/frankenstein.txt') as f:
         file_contents = f.read()
-    
 
     print("============ BOOKBOT ============")
     print("Analyzing book found at books/frankenstein.txt...")
