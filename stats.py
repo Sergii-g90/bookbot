@@ -10,3 +10,7 @@ def character_count(text):
         chars_count[char] = text.lower().count(char)
 
     return chars_count
+
+
+def sorted_list_of_chars(dict_of_chars):
+    return sorted(dict_of_chars.items(), key=lambda x: x[1], reverse=True)
